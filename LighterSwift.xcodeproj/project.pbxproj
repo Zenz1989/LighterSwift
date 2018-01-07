@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35AB00492001F6CB00519D19 /* NewFeature.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35AB00482001F6CB00519D19 /* NewFeature.storyboard */; };
+		35AB004B2001F70200519D19 /* NewFeatureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35AB004A2001F70200519D19 /* NewFeatureViewController.swift */; };
 		35F1DB651FFE117600C0A77C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F1DB641FFE117600C0A77C /* AppDelegate.swift */; };
-		35F1DB671FFE117600C0A77C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35F1DB661FFE117600C0A77C /* ViewController.swift */; };
 		35F1DB6A1FFE117600C0A77C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F1DB681FFE117600C0A77C /* Main.storyboard */; };
 		35F1DB6C1FFE117600C0A77C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35F1DB6B1FFE117600C0A77C /* Assets.xcassets */; };
 		35F1DB6F1FFE117600C0A77C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35F1DB6D1FFE117600C0A77C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		35AB00482001F6CB00519D19 /* NewFeature.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewFeature.storyboard; sourceTree = "<group>"; };
+		35AB004A2001F70200519D19 /* NewFeatureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeatureViewController.swift; sourceTree = "<group>"; };
 		35F1DB611FFE117600C0A77C /* LighterSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LighterSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		35F1DB641FFE117600C0A77C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		35F1DB661FFE117600C0A77C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		35F1DB691FFE117600C0A77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		35F1DB6B1FFE117600C0A77C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		35F1DB6E1FFE117600C0A77C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -35,9 +37,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35AB00472001F63100519D19 /* NewFeature */ = {
+			isa = PBXGroup;
+			children = (
+				35AB00482001F6CB00519D19 /* NewFeature.storyboard */,
+				35AB004A2001F70200519D19 /* NewFeatureViewController.swift */,
+			);
+			path = NewFeature;
+			sourceTree = "<group>";
+		};
 		35F1DB581FFE117600C0A77C = {
 			isa = PBXGroup;
 			children = (
+				35AB00472001F63100519D19 /* NewFeature */,
 				35F1DB631FFE117600C0A77C /* LighterSwift */,
 				35F1DB621FFE117600C0A77C /* Products */,
 			);
@@ -55,7 +67,6 @@
 			isa = PBXGroup;
 			children = (
 				35F1DB641FFE117600C0A77C /* AppDelegate.swift */,
-				35F1DB661FFE117600C0A77C /* ViewController.swift */,
 				35F1DB681FFE117600C0A77C /* Main.storyboard */,
 				35F1DB6B1FFE117600C0A77C /* Assets.xcassets */,
 				35F1DB6D1FFE117600C0A77C /* LaunchScreen.storyboard */,
@@ -125,6 +136,7 @@
 			files = (
 				35F1DB6F1FFE117600C0A77C /* LaunchScreen.storyboard in Resources */,
 				35F1DB6C1FFE117600C0A77C /* Assets.xcassets in Resources */,
+				35AB00492001F6CB00519D19 /* NewFeature.storyboard in Resources */,
 				35F1DB6A1FFE117600C0A77C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				35F1DB671FFE117600C0A77C /* ViewController.swift in Sources */,
+				35AB004B2001F70200519D19 /* NewFeatureViewController.swift in Sources */,
 				35F1DB651FFE117600C0A77C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +286,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6KZT3X573Q;
 				INFOPLIST_FILE = LighterSwift/Info.plist;
@@ -289,6 +302,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6KZT3X573Q;
 				INFOPLIST_FILE = LighterSwift/Info.plist;
